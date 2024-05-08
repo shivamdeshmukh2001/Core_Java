@@ -15,8 +15,8 @@ public class HollowNumericPyramid {
                 System.out.print(" ");
             }
             // Print the left half of the pyramid
-            for (int j = 1; j <= 2 * i - 1; j++) {
-                if (j == 1 || j == 2 * i - 1 || i == n) {
+            for (int k = 1; k <= 2 * i - 1; k++) {
+                if (k == 1 || k == 2 * i - 1 || i == n) {
                     System.out.print(i);
                 } else {
                     System.out.print(" ");
