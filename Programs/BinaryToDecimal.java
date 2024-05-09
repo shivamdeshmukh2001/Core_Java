@@ -15,6 +15,7 @@ public class BinaryToDecimal {
             power = power * 2;
         }
         System.out.print(ans);
+        
         sc.close();
     }
 }
